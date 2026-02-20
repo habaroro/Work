@@ -32,7 +32,7 @@ const TRACKS = [
     title: 'No.2',
     artist: '세련된 멜로디의 K-Pop 스타일',
     cover: imgImage2,
-    audio: '../../public/music/2.mp3',
+    audio: '/music/2.mp3',
     duration: '3:00',
     lyrics: "퍼펙트문해~Let's go!\n\n책 읽기가 즐거워지고\n생각하는 힘이 커져가\n문해력은 나의 무기\n꿈을 향해 나아가\n\n퍼펙트문해! 매일 성장해\n나를 바꾸는 힘\n퍼펙트문해! 자신감 UP\n미래를 여는 열쇠\n\n퍼펙트문해 지금 시작해"
   },
@@ -41,7 +41,7 @@ const TRACKS = [
     title: 'No.3',
     artist: '에너제틱한 Hook Song 스타일',
     cover: imgImage3,
-    audio: './public/music/3.mp3',
+    audio: '/music/3.mp3',
     duration: '3:00',
     lyrics: "퍼펙트문해 시작해볼까\n\n긴 지문도 빠르게 이해하고\n핵심 내용 한눈에 파악해\n문해력 키우면\n성적은 자연스럽게 올라가\n\n퍼펙트문해~ 퍼펙트문해~\n스마트한 공부법\n퍼펙트문해~ 퍼펙트문해~\n나만의 학습 파트너\n지금 바로 퍼펙트문해!"
   },
@@ -50,7 +50,7 @@ const TRACKS = [
     title: 'No.4',
     artist: '귀엽고 친근한 어린이 보컬과 화음',
     cover: imgImage4,
-    audio: './public/music/4.mp3',
+    audio: '/music/4.mp3',
     duration: '3:00',
     lyrics: "공부가 쉬워지는 초등 문해력 키우기\n긴 글은 술~술, 서술형 문제는 척!척!\n공부가 쉬워지는 초등 문해력 키우기\n퍼펙트문해!\n퍼펙트문해~! 예~!"
   },
@@ -59,7 +59,7 @@ const TRACKS = [
     title: 'No.5',
     artist: '청량하고 깨끗한 K-Pop 발라드',
     cover: imgImage5,
-    audio: './public/music/5.mp3',
+    audio: '/music/5.mp3',
     duration: '3:00',
     lyrics: "어려운 글도 이젠 두렵지 않아\n\n문제 해결 나는 할 수 있어\n독해력이 달라지면\n모든 과목이 쉬워져\n\n퍼펙트문해! 퍼펙트문해!\n실력이 올라가\n퍼펙트문해! 퍼펙트문해!\n공부가 쉬워지는 시작\n초등읽기프로젝트 퍼펙트문해"
   }
