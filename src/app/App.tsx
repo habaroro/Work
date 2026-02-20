@@ -23,7 +23,7 @@ const TRACKS = [
     title: 'No.1',
     artist: '밝고 경쾌한 동요 Pop 스타일',
     cover: imgImage1,
-    audio: '/public/music/1.mp3',
+    audio: '/music/1.mp3',
     duration: '3:00',
     lyrics: "퍼펙트! 퍼펙트! 퍼펙트문해! \n공부가 쉬워지는 초등 문해력 키우기\n긴 글은 술~술, 서술형 문제는 척!척!\n퍼펙트문해! 퍼펙트문해! \n문해력이 쑥쑥쑥! \n공부가 쉬워지는 초등 문해력 키우기 \n퍼펙트문해와 함께해요! 예~!"
   },
