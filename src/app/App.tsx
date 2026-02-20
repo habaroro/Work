@@ -23,7 +23,7 @@ const TRACKS = [
     title: 'No.1',
     artist: '밝고 경쾌한 동요 Pop 스타일',
     cover: imgImage1,
-    audio: '../public/music/1.mp3',
+    audio: '/public/music/1.mp3',
     duration: '3:00',
     lyrics: "퍼펙트! 퍼펙트! 퍼펙트문해! \n공부가 쉬워지는 초등 문해력 키우기\n긴 글은 술~술, 서술형 문제는 척!척!\n퍼펙트문해! 퍼펙트문해! \n문해력이 쑥쑥쑥! \n공부가 쉬워지는 초등 문해력 키우기 \n퍼펙트문해와 함께해요! 예~!"
   },
@@ -32,7 +32,7 @@ const TRACKS = [
     title: 'No.2',
     artist: '세련된 멜로디의 K-Pop 스타일',
     cover: imgImage2,
-    audio: './public/music/2.mp3',
+    audio: '../../public/music/2.mp3',
     duration: '3:00',
     lyrics: "퍼펙트문해~Let's go!\n\n책 읽기가 즐거워지고\n생각하는 힘이 커져가\n문해력은 나의 무기\n꿈을 향해 나아가\n\n퍼펙트문해! 매일 성장해\n나를 바꾸는 힘\n퍼펙트문해! 자신감 UP\n미래를 여는 열쇠\n\n퍼펙트문해 지금 시작해"
   },
