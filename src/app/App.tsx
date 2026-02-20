@@ -9,11 +9,11 @@ import { toast, Toaster } from 'sonner';
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerDescription, DrawerFooter, DrawerClose } from './components/ui/drawer';
 import { projectId, publicAnonKey } from '../../utils/supabase/info';
 
-import imgImage1 from "figma:asset/f228563ccb35d67e292f2f51ac565a95625dbd08.png";
-import imgImage2 from "figma:asset/d6b8f0c107beec31d7b38ccf4d2ff22c032ca274.png";
-import imgImage3 from "figma:asset/71f3945ce5afe5962d1e0b2a71e03034747ed047.png";
-import imgImage4 from "figma:asset/2897bb468ae95606199d27545adf92fcf2a52a41.png";
-import imgImage5 from "figma:asset/b9ae1985fdde75a9c854873abd3c3c8ebd9e949a.png";
+import imgImage1 from "../asset/f228563ccb35d67e292f2f51ac565a95625dbd08.png";
+import imgImage2 from "../asset/d6b8f0c107beec31d7b38ccf4d2ff22c032ca274.png";
+import imgImage3 from "../asset/71f3945ce5afe5962d1e0b2a71e03034747ed047.png";
+import imgImage4 from "../asset/2897bb468ae95606199d27545adf92fcf2a52a41.png";
+import imgImage5 from "../asset/b9ae1985fdde75a9c854873abd3c3c8ebd9e949a.png";
 
 // Sample Data
 // Note: Using external URLs for demo purposes. Replace with local paths (e.g., '/music/1.mp3') when files are available in public/music/
