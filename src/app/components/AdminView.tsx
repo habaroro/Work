@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from "motion/react";
-import { Lock, Unlock, BarChart3, X, RefreshCcw } from 'lucide-react';
+import { Lock, Unlock, BarChart3, X, RefreshCcw, Trash2 } from 'lucide-react';
 import { 
   Drawer, 
   DrawerContent, 
@@ -89,6 +89,29 @@ export function AdminView() {
     toast.success("투표 현황이 업데이트되었습니다.");
   };
 
+  const handleReset = async () => {
+    if (!window.confirm("정말로 모든 투표 결과를 초기화하시겠습니까?\n이 작업은 되돌릴 수 없습니다.")) return;
+
+    try {
+      const response = await fetch(`https://${projectId}.supabase.co/functions/v1/make-server-9dd730a0/reset-votes`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${publicAnonKey}`
+        },
+        body: JSON.stringify({ password })
+      });
+
+      if (!response.ok) throw new Error("초기화 실패");
+
+      toast.success("투표 결과가 초기화되었습니다.");
+      await fetchVotes(password);
+    } catch (e) {
+      console.error(e);
+      toast.error("초기화 중 오류가 발생했습니다.");
+    }
+  };
+
   const handleLogout = () => {
     setIsAuthenticated(false);
     setPassword('');
@@ -150,6 +173,9 @@ export function AdminView() {
                 <div className="flex gap-2">
                   <Button variant="ghost" size="icon" onClick={handleRefresh}>
                      <RefreshCcw className="h-5 w-5" />
+                  </Button>
+                  <Button variant="ghost" size="icon" onClick={handleReset} className="text-red-500 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20">
+                     <Trash2 className="h-5 w-5" />
                   </Button>
                   <Button variant="ghost" size="icon" onClick={handleLogout}>
                      <X className="h-5 w-5" />
