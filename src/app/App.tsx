@@ -39,7 +39,7 @@ const TRACKS = [
   {
     id: '3',
     title: 'No.3',
-    artist: '에너제틱한 Hook Song 스타일',
+    artist: '귀에 쏙쏙 박히는 경쾌한 리듬의 로고송',
     cover: imgImage3,
     audio: '/music/3.mp3',
     duration: '3:00',
@@ -48,7 +48,7 @@ const TRACKS = [
   {
     id: '4',
     title: 'No.4',
-    artist: '귀엽고 친근한 어린이 보컬과 화음',
+    artist: '중독성 강한 멜로디의 키즈팝 스타일',
     cover: imgImage4,
     audio: '/music/4.mp3',
     duration: '3:00',
