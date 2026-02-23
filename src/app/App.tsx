@@ -173,8 +173,8 @@ export default function App() {
       <header className="sticky top-0 z-10 w-full bg-white/80 dark:bg-black/80 backdrop-blur-xl border-b border-[rgba(229,231,235,0.5)] dark:border-white/10">
         <div className="mx-auto max-w-md px-6 py-4 flex items-center justify-between h-[80px]">
           <div>
-            <h1 className="text-[24px] font-bold tracking-[-0.5px] text-[#0a0a0a] dark:text-white leading-8">퍼펙트문해 LOGO SONG</h1>
-            <p className="text-[12px] font-medium tracking-[0.6px] uppercase text-[#717182] leading-4">마음에 드는 CM송에 투표해주세요.</p>
+            <h1 className="text-[24px] font-bold tracking-[-0.5px] text-[#0a0a0a] dark:text-white leading-8">퍼펙트문해 로고송</h1>
+            <p className="text-[12px] font-medium tracking-[0.6px] uppercase text-[#717182] leading-4">마음에 드는 음원에 투표해주세요.</p>
           </div>
           <div className="h-10 w-10 rounded-full bg-[#f3f4f6] dark:bg-white/10 flex items-center justify-center">
              <Music className="h-5 w-5 text-[#030213] dark:text-white" />
